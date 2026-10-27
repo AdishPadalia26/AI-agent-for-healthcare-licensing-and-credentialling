@@ -283,9 +283,8 @@ For improvements to my project, open an issue describing the behavior, expected 
 
 **Author:** Adish Padalia
 
-- <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/svgs/solid/envelope.svg" width="16" height="16" alt="Email"> **Email:** [padaliaadish@gmail.com](mailto:padaliaadish@gmail.com)
-- <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/svgs/solid/phone.svg" width="16" height="16" alt="Phone"> **Phone:** [+1 (227)-254-8570](tel:+12272548570)
-- <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/svgs/brands/linkedin.svg" width="16" height="16" alt="LinkedIn logo"> **LinkedIn:** [adish-padalia-a3768a230](https://www.linkedin.com/in/adish-padalia-a3768a230/)
-- <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/svgs/brands/github.svg" width="16" height="16" alt="GitHub logo"> **GitHub:** [AdishPadalia26](https://github.com/AdishPadalia26)
-- <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/svgs/solid/globe.svg" width="16" height="16" alt="Website"> **Portfolio:** [adish-padalia-portfolio.vercel.app](https://adish-padalia-portfolio.vercel.app)
-- <img src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.2/svgs/brands/google-scholar.svg" width="16" height="16" alt="Google Scholar logo"> **Google Scholar:** [Publications and citations](https://scholar.google.com/citations?user=spsQ3XsAAAAJ&hl=en)
+- **Email:** [padaliaadish@gmail.com](mailto:padaliaadish@gmail.com)
+- **LinkedIn:** [adish-padalia-a3768a230](https://www.linkedin.com/in/adish-padalia-a3768a230/)
+- **GitHub:** [AdishPadalia26](https://github.com/AdishPadalia26)
+- **Portfolio:** [adish-padalia-portfolio.vercel.app](https://adish-padalia-portfolio.vercel.app)
+- **Google Scholar:** [Publications and citations](https://scholar.google.com/citations?user=spsQ3XsAAAAJ&hl=en)
