@@ -1,0 +1,222 @@
+{
+  "full_name": "Carlos Alvarez, MD",
+  "date_of_birth": "September 18, 1978",
+  "place_of_birth": "San Antonio, Texas",
+  "citizenship": "United States",
+  "gender": "Male",
+  "race": "White",
+  "ethnicity": "Hispanic",
+  "ssn": "462-85-9374",
+  "marital_status": "Married",
+  "npi": "1847592365",
+  "ecfmg_certification_number": null,
+  "ecfmg_issue_date": null,
+  "contact_information": {
+    "address": "2845 South Congress Ave, Austin, TX 78704",
+    "phone": "(512) 447-8923",
+    "email": "c.alvarez@texasoncology.org"
+  },
+  "address_history": [
+    {
+      "address": "2845 South Congress Ave, Austin, TX 78704",
+      "start_date": "2018",
+      "end_date": "Present"
+    },
+    {
+      "address": "1401 Westheimer Rd, Houston, TX 77027",
+      "start_date": "2012",
+      "end_date": "2018"
+    },
+    {
+      "address": "3450 Medical Dr, San Antonio, TX 78229",
+      "start_date": "2005",
+      "end_date": "2012"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Biology",
+      "institution": "University of Texas at Austin",
+      "location": "Austin, TX",
+      "start_date": "08/1996",
+      "end_date": "05/2000",
+      "graduation_year": "2000"
+    },
+    {
+      "degree": "Doctor of Medicine (MD)",
+      "institution": "University of Texas Southwestern Medical School",
+      "location": "Dallas, TX",
+      "start_date": "08/2000",
+      "end_date": "05/2004",
+      "graduation_year": "2004"
+    }
+  ],
+  "postgraduate_training": [
+    {
+      "type": "Residency",
+      "specialty": "Internal Medicine",
+      "institution": "Methodist Hospital",
+      "start_date": "2004",
+      "end_date": "2007"
+    },
+    {
+      "type": "Fellowship",
+      "specialty": "Medical Oncology",
+      "institution": "MD Anderson Cancer Center",
+      "start_date": "2007",
+      "end_date": "2010"
+    },
+    {
+      "type": "Fellowship",
+      "specialty": "Hematology",
+      "institution": "Baylor College of Medicine",
+      "start_date": "2010",
+      "end_date": "2012"
+    }
+  ],
+  "licensure": [
+    {
+      "type": "State License",
+      "state": "Texas",
+      "license_number": "TX58942",
+      "status": "Active",
+      "expiration_date": "08/31/2025"
+    },
+    {
+      "type": "DEA",
+      "state": "Texas",
+      "license_number": "BA7539284",
+      "status": "Active",
+      "expiration_date": "03/31/2026"
+    }
+  ],
+  "board_certifications": [
+    {
+      "board": "American Board of Internal Medicine",
+      "specialty": "Internal Medicine",
+      "status": "Certified",
+      "start_date": "2007",
+      "end_date": "2027"
+    },
+    {
+      "board": "American Board of Internal Medicine",
+      "specialty": "Medical Oncology",
+      "status": "Certified",
+      "start_date": "2010",
+      "end_date": "2025"
+    },
+    {
+      "board": "American Board of Internal Medicine",
+      "specialty": "Hematology",
+      "status": "Certified",
+      "start_date": "2012",
+      "end_date": "2027"
+    }
+  ],
+  "employment_history": [
+    {
+      "position": "Senior Medical Oncologist",
+      "employer": "Austin Cancer Center",
+      "location": "Austin, TX",
+      "start_date": "2018",
+      "end_date": "Present"
+    },
+    {
+      "position": "Medical Oncologist",
+      "employer": "Houston Methodist Cancer Center",
+      "location": "Houston, TX",
+      "start_date": "2012",
+      "end_date": "2018"
+    },
+    {
+      "position": "Staff Physician",
+      "employer": "Cancer Therapy & Research Center",
+      "location": "San Antonio, TX",
+      "start_date": "2010",
+      "end_date": "2012"
+    }
+  ],
+  "hospital_privileges": [
+    {
+      "hospital": "Dell Seton Medical Center",
+      "status": "Active",
+      "start_date": "2018",
+      "end_date": null
+    },
+    {
+      "hospital": "St. David's South Austin Medical Center",
+      "status": "Active",
+      "start_date": "2018",
+      "end_date": null
+    },
+    {
+      "hospital": "Houston Methodist Hospital",
+      "status": "Inactive",
+      "start_date": "2012",
+      "end_date": "2018"
+    }
+  ],
+  "languages_spoken": [
+    "English",
+    "Spanish",
+    "Portuguese"
+  ],
+  "clinical_interests": [
+    "Gastrointestinal oncology",
+    "Immunotherapy and precision medicine",
+    "Clinical trials and research",
+    "Palliative and supportive care"
+  ],
+  "peer_review_notes": [
+    "Demonstrates excellent clinical judgment in complex cases",
+    "Strong advocate for patient-centered care",
+    "Active participation in tumor board discussions",
+    "Maintains high standards in treatment protocols"
+  ],
+  "peer_references": [
+    {
+      "name": "Dr. Maria Rodriguez, MD",
+      "title": "Department Chair, Medical Oncology",
+      "institution": "Austin Cancer Center",
+      "phone": "(512) 324-7890",
+      "email": "m.rodriguez@austincancer.org"
+    },
+    {
+      "name": "Dr. James Chen, MD",
+      "title": "Director of Clinical Research",
+      "institution": "Houston Methodist Cancer Center",
+      "phone": "(713) 441-2563",
+      "email": "j.chen@houstonmethodist.org"
+    }
+  ],
+  "professional_liability_insurance": {
+    "carrier": "Texas Medical Liability Trust",
+    "policy_number": "TMLT8847392",
+    "coverage_amount": "$1M/$3M",
+    "effective_start_date": "01/01/2024",
+    "effective_end_date": "01/01/2027"
+  },
+  "professional_concerns": "Malpractice claim settled in 2020 - patient alleged delayed diagnosis of pancreatic cancer. Case resolved with no admission of wrongdoing. No impact on licensure or hospital privileges.",
+  "has_malpractice_history": true,
+  "has_license_disciplinary_action": false,
+  "has_criminal_history": false,
+  "has_military_service": true,
+  "military_service_details": {
+    "branch": "U.S. Army Reserve",
+    "rank": "Captain",
+    "service_dates": "2004-2012",
+    "discharge_type": "Honorable"
+  },
+  "publications": [
+    "Immunotherapy combinations in advanced gastric cancer: A systematic review (2023)",
+    "Quality of life outcomes in pancreatic cancer patients receiving palliative care (2022)",
+    "Biomarkers for personalized treatment in colorectal cancer (2021)"
+  ],
+  "professional_memberships": [
+    "American Society of Clinical Oncology (ASCO)",
+    "Texas Medical Association",
+    "American College of Physicians",
+    "National Comprehensive Cancer Network"
+  ],
+  "session_tag": "aca9e748"
+}

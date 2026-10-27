@@ -1,0 +1,198 @@
+{
+  "full_name": "David Chen, MD",
+  "date_of_birth": "September 8, 1982",
+  "place_of_birth": "San Francisco, CA",
+  "citizenship": "United States",
+  "gender": "Male",
+  "race": "Asian",
+  "ethnicity": "Chinese American",
+  "ssn": "567-89-2341",
+  "marital_status": "Married",
+  "npi": "1678934521",
+  "ecfmg_certification_number": null,
+  "ecfmg_issue_date": null,
+  "contact_information": {
+    "address": "1248 Maple Avenue, Seattle, WA 98101",
+    "phone": "(206) 555-8472",
+    "email": "dchen@seattlechildrens.org"
+  },
+  "address_history": [
+    {
+      "address": "1248 Maple Avenue, Seattle, WA 98101",
+      "start_date": "2018",
+      "end_date": "Present"
+    },
+    {
+      "address": "3456 Oak Street, Portland, OR 97201",
+      "start_date": "2014",
+      "end_date": "2018"
+    },
+    {
+      "address": "789 University Drive, Palo Alto, CA 94301",
+      "start_date": "2004",
+      "end_date": "2012"
+    }
+  ],
+  "education": [
+    {
+      "degree": "BS Biology",
+      "institution": "University of California, Berkeley",
+      "location": "Berkeley, CA",
+      "start_date": "08/2000",
+      "end_date": "05/2004",
+      "graduation_year": "2004"
+    },
+    {
+      "degree": "MD",
+      "institution": "Stanford University School of Medicine",
+      "location": "Stanford, CA",
+      "start_date": "08/2004",
+      "end_date": "05/2008",
+      "graduation_year": "2008"
+    }
+  ],
+  "postgraduate_training": [
+    {
+      "type": "Residency",
+      "specialty": "Pediatrics",
+      "institution": "Oregon Health & Science University",
+      "start_date": "2008",
+      "end_date": "2011"
+    },
+    {
+      "type": "Fellowship",
+      "specialty": "Pediatric Cardiology",
+      "institution": "Seattle Children's Hospital",
+      "start_date": "2011",
+      "end_date": "2014"
+    }
+  ],
+  "licensure": [
+    {
+      "type": "State License",
+      "state": "Washington",
+      "license_number": "WA892456",
+      "status": "Active",
+      "expiration_date": "12/31/2025"
+    },
+    {
+      "type": "State License",
+      "state": "Oregon",
+      "license_number": "OR345678",
+      "status": "Inactive",
+      "expiration_date": "2019"
+    },
+    {
+      "type": "DEA",
+      "state": "Washington",
+      "license_number": "BC7834521",
+      "status": "Active",
+      "expiration_date": "04/30/2026"
+    }
+  ],
+  "board_certifications": [
+    {
+      "board": "American Board of Pediatrics",
+      "specialty": "Pediatrics",
+      "status": "Certified",
+      "start_date": "2012",
+      "end_date": "2027"
+    },
+    {
+      "board": "American Board of Pediatrics",
+      "specialty": "Pediatric Cardiology",
+      "status": "Certified",
+      "start_date": "2015",
+      "end_date": "2025"
+    }
+  ],
+  "employment_history": [
+    {
+      "position": "Attending Physician, Pediatric Cardiology",
+      "employer": "Seattle Children's Hospital",
+      "location": "Seattle, WA",
+      "start_date": "2018",
+      "end_date": "Present"
+    },
+    {
+      "position": "Assistant Professor of Pediatrics",
+      "employer": "University of Washington School of Medicine",
+      "location": "Seattle, WA",
+      "start_date": "2018",
+      "end_date": "Present"
+    },
+    {
+      "position": "Pediatric Cardiologist",
+      "employer": "Doernbecher Children's Hospital",
+      "location": "Portland, OR",
+      "start_date": "2014",
+      "end_date": "2018"
+    }
+  ],
+  "hospital_privileges": [
+    {
+      "hospital": "Seattle Children's Hospital",
+      "status": "Active",
+      "start_date": "2018",
+      "end_date": null
+    },
+    {
+      "hospital": "University of Washington Medical Center",
+      "status": "Active",
+      "start_date": "2018",
+      "end_date": null
+    },
+    {
+      "hospital": "Doernbecher Children's Hospital",
+      "status": "Expired",
+      "start_date": "2014",
+      "end_date": "2018"
+    }
+  ],
+  "languages_spoken": [
+    "English",
+    "Mandarin Chinese",
+    "Cantonese"
+  ],
+  "clinical_interests": [
+    "Congenital heart disease",
+    "Pediatric interventional cardiology",
+    "Cardiac catheterization procedures",
+    "Fetal cardiology and echocardiography"
+  ],
+  "peer_review_notes": [
+    "Exceptional technical skills in cardiac catheterization",
+    "Strong communication with families during difficult diagnoses",
+    "Active participation in multidisciplinary care conferences",
+    "Mentors residents and fellows effectively"
+  ],
+  "peer_references": [
+    {
+      "name": "Dr. Sarah Martinez",
+      "position": "Chief of Pediatric Cardiology",
+      "institution": "Seattle Children's Hospital",
+      "phone": "(206) 555-7890",
+      "email": "smartinez@seattlechildrens.org"
+    },
+    {
+      "name": "Dr. Michael Thompson",
+      "position": "Director of Pediatric Services",
+      "institution": "Doernbecher Children's Hospital",
+      "phone": "(503) 555-2468",
+      "email": "mthompson@ohsu.edu"
+    }
+  ],
+  "professional_liability_insurance": {
+    "carrier": "Physicians Insurance A Mutual Company",
+    "policy_number": "PI7829456",
+    "coverage_amount": "$2M/$6M",
+    "effective_start_date": "01/01/2024",
+    "effective_end_date": "01/01/2025"
+  },
+  "professional_concerns": "Malpractice settlement in 2022 related to delayed diagnosis of congenital heart defect. Case resolved with no admission of fault. Implemented additional quality assurance measures.",
+  "has_malpractice_history": true,
+  "has_license_disciplinary_action": false,
+  "has_criminal_history": false,
+  "has_military_service": false,
+  "session_tag": "b8f5090f"
+}

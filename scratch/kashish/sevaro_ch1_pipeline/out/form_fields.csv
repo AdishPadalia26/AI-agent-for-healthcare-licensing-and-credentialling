@@ -1,0 +1,419 @@
+field_id,type
+1 Name,/Tx
+EMail Address,/Tx
+2 Other NamesPreviously Used,/Tx
+3 Social Security Number,/Tx
+4 NPI National Provider Identifier,/Tx
+5 Place ofBirth,/Tx
+6 Gender,/Tx
+Citizenship,/Tx
+8 lfNot US Citizen Visa,/Tx
+Status,/Tx
+Expiration Date,/Tx
+10 LocalResidenceREQUIRED,/Tx
+Practitioners BeeperCell Number,/Tx
+Answering Service Number,/Tx
+11 Practitioner Call Coverage,/Tx
+12 Date of Relocation to TX If Applicable,/Tx
+Date Expected toBeginPractice,/Tx
+Specialty,/Tx
+Admit Privileges YESNO lfNO Alternate Arrangements With Whom,/Tx
+13 Local Primaiy PracticeGroup Name,/Tx
+Complete Office Address,/Tx
+Office Phone,/Tx
+FAX Number,/Tx
+Email,/Tx
+Preferred Method of Contact Phone,/Tx
+Fax,/Tx
+Email_2,/Tx
+13A TaxID,/Tx
+Name Affiliated wfaxID,/Tx
+14 OfficeCredentialing Contact Name Address,/Tx
+Title,/Tx
+Phone Number,/Tx
+FAX Number_2,/Tx
+Email_3,/Tx
+15 Secondary Office Address,/Tx
+Title_2,/Tx
+Phone Number_2,/Tx
+FAX Number_3,/Tx
+Email_4,/Tx
+16 Languagesother than EnglishSpokenin Your Office by You,/Tx
+17 Texas Medical license No,/Tx
+Date lssued,/Tx
+Date Expires,/Tx
+State 1,/Tx
+State 2,/Tx
+State 3,/Tx
+State 4,/Tx
+18 Federal DEARegistrationNo,/Tx
+Date Expires_2,/Tx
+TX DPS No,/Tx
+DateExpires,/Tx
+ECFMGNo,/Tx
+Date of Certification,/Tx
+FLEX Exam,/Tx
+Date Taken,/Tx
+USMLENo,/Tx
+Date Taken_2,/Tx
+National Board ofMedical Examiners,/Tx
+Date Taken_3,/Tx
+TYPE,/Tx
+DATE OF CERTIFICATIONACLS,/Tx
+EXPIRATION DATEACLS,/Tx
+DATE OF CERTIFICATIONATLS,/Tx
+EXPIRATION DATEATLS,/Tx
+DATE OF CERTIFICATIONBLS,/Tx
+EXPIRATION DATEBLS,/Tx
+DATE OF CERTIFICATIONNALS,/Tx
+EXPIRATION DATENALS,/Tx
+DATE OF CERTIFICATIONPALS,/Tx
+EXPIRATION DATEPALS,/Tx
+DATE OF CERTIFICATIONOTHER,/Tx
+EXPIRATION DATEOTHER,/Tx
+DATE OF CERTIFICATIONOTHER_2,/Tx
+EXPIRATION DATEOTHER_2,/Tx
+Facility Name,/Tx
+Mailing Address,/Tx
+Phone,/Tx
+FAX,/Tx
+FROMMoNr,/Tx
+TOMoNr,/Tx
+Degree Earned,/Tx
+Attach additional sheets if necessary,/Tx
+48 Present Carrier for Texas Practice,/Tx
+Mailing Address_2,/Tx
+Phone Number_3,/Tx
+Effective Date,/Tx
+Expiration Date_2,/Tx
+undefined,/Tx
+49 PreviousCarrier,/Tx
+Mailing Address_3,/Tx
+Phone Number_4,/Tx
+Effective Date_2,/Tx
+Expiration Date_3,/Tx
+undefined_2,/Tx
+50 PreviousCarrier,/Tx
+Mailing Address_4,/Tx
+Phone Number_5,/Tx
+Effective Date_3,/Tx
+Expiration Date_4,/Tx
+Text1,/Tx
+Text2,/Tx
+Text3,/Tx
+Text4,/Tx
+Text5,/Tx
+Text6,/Tx
+Text7,/Tx
+Text8,/Tx
+Text9,/Tx
+Text10,/Tx
+Text11,/Tx
+Text12,/Tx
+Text13,/Tx
+Text14,/Tx
+Text15,/Tx
+Text16,/Tx
+Text17,/Tx
+Text18,/Tx
+Text19,/Tx
+Text20,/Tx
+Text21,/Tx
+Text22,/Tx
+Text23,/Tx
+Text24,/Tx
+Text25,/Tx
+Text26,/Tx
+Text27,/Tx
+Text28,/Tx
+Text29,/Tx
+Text30,/Tx
+Text31,/Tx
+Text32,/Tx
+Text33,/Tx
+Text34,/Tx
+Text35,/Tx
+Text36,/Tx
+Text37,/Tx
+Text38,/Tx
+Text39,/Tx
+Text40,/Tx
+Text41,/Tx
+Text42,/Tx
+Text43,/Tx
+Text44,/Tx
+Text45,/Tx
+Text46,/Tx
+Text47,/Tx
+Text48,/Tx
+Text49,/Tx
+Text50,/Tx
+Text51,/Tx
+Text52,/Tx
+Text53,/Tx
+Text54,/Tx
+Text55,/Tx
+Text56,/Tx
+Text57,/Tx
+Text58,/Tx
+Text59,/Tx
+Text60,/Tx
+Text61,/Tx
+Text62,/Tx
+Text63,/Tx
+Text64,/Tx
+Text65,/Tx
+Text66,/Tx
+Text67,/Tx
+Text68,/Tx
+Text69,/Tx
+Text70,/Tx
+Text71,/Tx
+Text72,/Tx
+Text73,/Tx
+Text74,/Tx
+Text75,/Tx
+Text76,/Tx
+Text77,/Tx
+Text78,/Tx
+Text79,/Tx
+Text80,/Tx
+Text81,/Tx
+Text82,/Tx
+Text83,/Tx
+Text84,/Tx
+Text85,/Tx
+Text86,/Tx
+Text87,/Tx
+Text88,/Tx
+Text89,/Tx
+Text90,/Tx
+Text91,/Tx
+Text92,/Tx
+Text93,/Tx
+Text94,/Tx
+Text95,/Tx
+Text96,/Tx
+Text97,/Tx
+Check Box98,/Btn
+Check Box99,/Btn
+Text100,/Tx
+Text101,/Tx
+Text102,/Tx
+Text103,/Tx
+Text104,/Tx
+Text105,/Tx
+Text106,/Tx
+Text107,/Tx
+Text108,/Tx
+Text109,/Tx
+Text110,/Tx
+Text111,/Tx
+Text112,/Tx
+Text113,/Tx
+Text114,/Tx
+Text115,/Tx
+Text116,/Tx
+Text117,/Tx
+Text118,/Tx
+Text119,/Tx
+Text120,/Tx
+Text121,/Tx
+Text122,/Tx
+Text123,/Tx
+Text124,/Tx
+Text125,/Tx
+Text126,/Tx
+Text127,/Tx
+Text128,/Tx
+Text129,/Tx
+Text130,/Tx
+Text131,/Tx
+Text132,/Tx
+Text133,/Tx
+Text134,/Tx
+Text135,/Tx
+Text136,/Tx
+Text137,/Tx
+Text138,/Tx
+Text139,/Tx
+Text140,/Tx
+Text141,/Tx
+Text142,/Tx
+Text143,/Tx
+Text144,/Tx
+Text145,/Tx
+Text146,/Tx
+Text147,/Tx
+Text148,/Tx
+Text149,/Tx
+Text150,/Tx
+Text151,/Tx
+Text152,/Tx
+Text153,/Tx
+Text154,/Tx
+Text155,/Tx
+Text156,/Tx
+Text157,/Tx
+Text158,/Tx
+Text159,/Tx
+Text160,/Tx
+Text161,/Tx
+Text162,/Tx
+Text163,/Tx
+Text164,/Tx
+Text165,/Tx
+Text166,/Tx
+Text167,/Tx
+Text168,/Tx
+Text169,/Tx
+Text170,/Tx
+Text171,/Tx
+Text172,/Tx
+Text173,/Tx
+Text174,/Tx
+Text175,/Tx
+Text176,/Tx
+Text177,/Tx
+Text178,/Tx
+Text179,/Tx
+Text180,/Tx
+Text181,/Tx
+Text182,/Tx
+Text183,/Tx
+Text184,/Tx
+Text185,/Tx
+Text186,/Tx
+Check Box187,/Btn
+Text188,/Tx
+Text189,/Tx
+Text190,/Tx
+Text191,/Tx
+Text192,/Tx
+Text193,/Tx
+Text194,/Tx
+Text195,/Tx
+Text196,/Tx
+Text197,/Tx
+Text198,/Tx
+Text199,/Tx
+Text200,/Tx
+Text201,/Tx
+Text202,/Tx
+Text203,/Tx
+Text204,/Tx
+Text205,/Tx
+Text206,/Tx
+Text207,/Tx
+Text208,/Tx
+Text209,/Tx
+Text210,/Tx
+Text211,/Tx
+Check Box212,/Btn
+Check Box213,/Btn
+Check Box214,/Btn
+Text215,/Tx
+Text216,/Tx
+Text217,/Tx
+Text218,/Tx
+Text219,/Tx
+Text220,/Tx
+Text221,/Tx
+Text222,/Tx
+Text223,/Tx
+Text224,/Tx
+Text225,/Tx
+Text226,/Tx
+Text227,/Tx
+Text228,/Tx
+Text229,/Tx
+Text230,/Tx
+Text231,/Tx
+Text232,/Tx
+Text233,/Tx
+Text234,/Tx
+Text235,/Tx
+Text236,/Tx
+Text237,/Tx
+Text238,/Tx
+Text239,/Tx
+Text240,/Tx
+Text241,/Tx
+Text242,/Tx
+Text243,/Tx
+Text244,/Tx
+Text245,/Tx
+Text246,/Tx
+Text247,/Tx
+Text248,/Tx
+Text249,/Tx
+Check Box250,/Btn
+Check Box251,/Btn
+Check Box252,/Btn
+Check Box253,/Btn
+Check Box254,/Btn
+Check Box255,/Btn
+Check Box256,/Btn
+Check Box257,/Btn
+Check Box258,/Btn
+Check Box259,/Btn
+Check Box260,/Btn
+Check Box261,/Btn
+Check Box262,/Btn
+Check Box263,/Btn
+Check Box264,/Btn
+Check Box265,/Btn
+Check Box266,/Btn
+Check Box267,/Btn
+Check Box268,/Btn
+Check Box269,/Btn
+Check Box270,/Btn
+Check Box271,/Btn
+Check Box272,/Btn
+Check Box273,/Btn
+Check Box274,/Btn
+Check Box275,/Btn
+Check Box276,/Btn
+Check Box277,/Btn
+Check Box278,/Btn
+Check Box279,/Btn
+Check Box280,/Btn
+Check Box281,/Btn
+Check Box282,/Btn
+Check Box283,/Btn
+Check Box284,/Btn
+Check Box285,/Btn
+Check Box286,/Btn
+Check Box287,/Btn
+Check Box288,/Btn
+Check Box289,/Btn
+Check Box290,/Btn
+Check Box291,/Btn
+Text292,/Tx
+Signature295,/Sig
+Text296,/Tx
+Text297,/Tx
+Text298,/Tx
+Text299,/Tx
+Text300,/Tx
+Text301,/Tx
+Text302,/Tx
+Text303,/Tx
+Text304,/Tx
+Text305,/Tx
+Text306,/Tx
+Text307,/Tx
+Text308,/Tx
+Text309,/Tx
+Text310,/Tx
+Text311,/Tx
+Text312,/Tx
+Text313,/Tx
+Text314,/Tx
+Text315,/Tx
+Text316,/Tx
+Text317,/Tx
+Text318,/Tx
+Text319,/Tx
+Text320,/Tx
+9 Name of SpouseSignificant OtherDomestic Partner,/Tx

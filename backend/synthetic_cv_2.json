@@ -1,0 +1,235 @@
+{
+  "full_name": "Dr. Sophia M\u00fcller, MD",
+  "date_of_birth": "September 18, 1982",
+  "place_of_birth": "Munich, Germany",
+  "citizenship": "United States",
+  "gender": "Female",
+  "race": "White",
+  "ethnicity": "German",
+  "ssn": "542-78-9341",
+  "marital_status": "Married",
+  "npi": "1847923567",
+  "ecfmg_certification_number": "3-987-654-321",
+  "ecfmg_issue_date": "2008-11-15",
+  "contact_information": {
+    "address": "1425 Heart Center Drive, Boston, MA 02115",
+    "phone": "(617) 555-2847",
+    "email": "sophia.muller@bostonheart.org"
+  },
+  "address_history": [
+    {
+      "address": "1425 Heart Center Drive, Boston, MA 02115",
+      "start_date": "2018",
+      "end_date": "Present"
+    },
+    {
+      "address": "789 Medical Plaza, Philadelphia, PA 19104",
+      "start_date": "2014",
+      "end_date": "2018"
+    },
+    {
+      "address": "456 Residency Lane, Baltimore, MD 21287",
+      "start_date": "2009",
+      "end_date": "2014"
+    },
+    {
+      "address": "Leopoldstra\u00dfe 142, Munich, Germany",
+      "start_date": "2001",
+      "end_date": "2008"
+    }
+  ],
+  "education": [
+    {
+      "degree": "MD",
+      "institution": "Ludwig Maximilian University of Munich Medical School",
+      "location": "Munich, Germany",
+      "start_date": "08/2001",
+      "end_date": "06/2007",
+      "graduation_year": "2007"
+    },
+    {
+      "degree": "Bachelor of Science in Biology",
+      "institution": "Technical University of Munich",
+      "location": "Munich, Germany",
+      "start_date": "09/1999",
+      "end_date": "07/2001",
+      "graduation_year": "2001"
+    }
+  ],
+  "postgraduate_training": [
+    {
+      "type": "Residency",
+      "specialty": "Internal Medicine",
+      "institution": "Johns Hopkins Hospital",
+      "start_date": "2009",
+      "end_date": "2012"
+    },
+    {
+      "type": "Fellowship",
+      "specialty": "Cardiology",
+      "institution": "Johns Hopkins Hospital",
+      "start_date": "2012",
+      "end_date": "2015"
+    },
+    {
+      "type": "Fellowship",
+      "specialty": "Interventional Cardiology",
+      "institution": "University of Pennsylvania Hospital",
+      "start_date": "2015",
+      "end_date": "2016"
+    }
+  ],
+  "licensure": [
+    {
+      "type": "State License",
+      "state": "Massachusetts",
+      "license_number": "MA298547",
+      "status": "Active",
+      "expiration_date": "12/31/2025"
+    },
+    {
+      "type": "State License",
+      "state": "Pennsylvania",
+      "license_number": "PA185739",
+      "status": "Inactive",
+      "expiration_date": "2019"
+    },
+    {
+      "type": "DEA",
+      "state": "Massachusetts",
+      "license_number": "BM4729581",
+      "status": "Active",
+      "expiration_date": "04/30/2026"
+    }
+  ],
+  "board_certifications": [
+    {
+      "board": "American Board of Internal Medicine",
+      "specialty": "Internal Medicine",
+      "status": "Certified",
+      "start_date": "2012",
+      "end_date": "2025"
+    },
+    {
+      "board": "American Board of Internal Medicine",
+      "specialty": "Cardiovascular Disease",
+      "status": "Certified",
+      "start_date": "2015",
+      "end_date": "2025"
+    },
+    {
+      "board": "American Board of Internal Medicine",
+      "specialty": "Interventional Cardiology",
+      "status": "Certified",
+      "start_date": "2016",
+      "end_date": "2026"
+    }
+  ],
+  "employment_history": [
+    {
+      "position": "Senior Interventional Cardiologist",
+      "employer": "Boston Heart Institute",
+      "location": "Boston, MA",
+      "start_date": "2018",
+      "end_date": "Present"
+    },
+    {
+      "position": "Attending Cardiologist",
+      "employer": "University of Pennsylvania Health System",
+      "location": "Philadelphia, PA",
+      "start_date": "2016",
+      "end_date": "2018"
+    },
+    {
+      "position": "Cardiology Fellow",
+      "employer": "Johns Hopkins Hospital",
+      "location": "Baltimore, MD",
+      "start_date": "2012",
+      "end_date": "2015"
+    }
+  ],
+  "hospital_privileges": [
+    {
+      "hospital": "Massachusetts General Hospital",
+      "status": "Active",
+      "start_date": "2018",
+      "end_date": "Present"
+    },
+    {
+      "hospital": "Brigham and Women's Hospital",
+      "status": "Active",
+      "start_date": "2018",
+      "end_date": "Present"
+    },
+    {
+      "hospital": "Boston Medical Center",
+      "status": "Active",
+      "start_date": "2019",
+      "end_date": "Present"
+    },
+    {
+      "hospital": "Hospital of the University of Pennsylvania",
+      "status": "Expired",
+      "start_date": "2016",
+      "end_date": "2018"
+    }
+  ],
+  "languages_spoken": [
+    "English",
+    "German",
+    "French",
+    "Basic Spanish"
+  ],
+  "clinical_interests": [
+    "Complex coronary interventions",
+    "Structural heart disease",
+    "Women's cardiovascular health",
+    "Cardiac catheterization and angioplasty",
+    "Heart failure management"
+  ],
+  "peer_review_notes": [
+    "Exceptional technical skills in complex PCI procedures",
+    "Strong collaborative approach with cardiac surgery team",
+    "Excellent patient communication and bedside manner",
+    "Consistently meets quality metrics and outcomes standards"
+  ],
+  "peer_references": [
+    {
+      "name": "Dr. Michael Thompson, MD",
+      "position": "Chief of Cardiology",
+      "institution": "Boston Heart Institute",
+      "phone": "(617) 555-1234",
+      "relationship": "Current Supervisor"
+    },
+    {
+      "name": "Dr. Sarah Chen, MD",
+      "position": "Director of Interventional Cardiology",
+      "institution": "University of Pennsylvania",
+      "phone": "(215) 555-9876",
+      "relationship": "Former Colleague"
+    }
+  ],
+  "professional_liability_insurance": {
+    "carrier": "Physicians Protective Insurance Company",
+    "policy_number": "CV7829451",
+    "coverage_amount": "$2M/$6M",
+    "effective_start_date": "01/01/2024",
+    "effective_end_date": "01/01/2027"
+  },
+  "professional_concerns": "Malpractice settlement in 2019 regarding delayed diagnosis case - resolved with no admission of liability. No other disciplinary actions or concerns.",
+  "has_malpractice_history": true,
+  "has_license_disciplinary_action": false,
+  "has_criminal_history": false,
+  "has_military_service": false,
+  "malpractice_details": {
+    "year": 2019,
+    "description": "Settlement reached in case involving alleged delayed diagnosis of myocardial infarction. No admission of wrongdoing. Case resolved through insurance carrier.",
+    "settlement_amount": "$185,000",
+    "status": "Closed"
+  },
+  "publications": [
+    "Novel Approaches to Complex Coronary Lesions - Journal of Interventional Cardiology, 2021",
+    "Gender Disparities in Cardiovascular Care - European Heart Journal, 2020"
+  ],
+  "session_tag": "30d8204d"
+}

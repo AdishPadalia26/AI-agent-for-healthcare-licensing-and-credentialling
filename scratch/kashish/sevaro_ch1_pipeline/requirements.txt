@@ -1,0 +1,4 @@
+pypdf2
+pdfrw
+pyyaml
+python-dateutil

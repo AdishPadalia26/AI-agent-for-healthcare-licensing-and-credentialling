@@ -1,0 +1,32 @@
+# Credentials and local environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches
+.venv/
+venv/
+env/
+sevaroenv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# JavaScript dependencies and generated output
+node_modules/
+.next/
+coverage/
+*.tsbuildinfo
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Bundled installer and duplicate source archive
+/AWSCLIV2.pkg
+/frontend.zip

@@ -1,0 +1,239 @@
+{
+  "full_name": "Dr. Nia Mensah, MD",
+  "date_of_birth": "August 15, 1982",
+  "place_of_birth": "Accra, Ghana",
+  "citizenship": "United States",
+  "gender": "Female",
+  "race": "Black or African American",
+  "ethnicity": "Not Hispanic or Latino",
+  "ssn": "XXX-XX-7429",
+  "marital_status": "Married",
+  "npi": "1287634592",
+  "ecfmg_certification_number": "3-456-789-0",
+  "ecfmg_issue_date": "09/15/2007",
+  "has_malpractice_history": true,
+  "has_license_disciplinary_action": false,
+  "has_criminal_history": false,
+  "has_military_service": false,
+  "contact_information": {
+    "address": "1847 Peachtree Road NE, Atlanta, GA 30309",
+    "phone": "(404) 555-0193",
+    "email": "nmensah@digestivecare.com"
+  },
+  "address_history": [
+    {
+      "address": "1847 Peachtree Road NE, Atlanta, GA 30309",
+      "start_date": "2020",
+      "end_date": "Present"
+    },
+    {
+      "address": "425 East 61st Street, New York, NY 10065",
+      "start_date": "2014",
+      "end_date": "2020"
+    },
+    {
+      "address": "2200 Children's Way, Nashville, TN 37232",
+      "start_date": "2011",
+      "end_date": "2014"
+    },
+    {
+      "address": "Ring Road East, Accra, Ghana",
+      "start_date": "1982",
+      "end_date": "2003"
+    }
+  ],
+  "education": [
+    {
+      "degree": "MBChB",
+      "institution": "University of Ghana Medical School",
+      "location": "Accra, Ghana",
+      "start_date": "09/1999",
+      "end_date": "07/2005",
+      "graduation_year": "2005"
+    },
+    {
+      "degree": "MD (Internal Medicine)",
+      "institution": "Emory University School of Medicine",
+      "location": "Atlanta, GA",
+      "start_date": "08/2008",
+      "end_date": "05/2011",
+      "graduation_year": "2011"
+    }
+  ],
+  "postgraduate_training": [
+    {
+      "type": "Residency",
+      "specialty": "Internal Medicine",
+      "institution": "Vanderbilt University Medical Center",
+      "start_date": "2008",
+      "end_date": "2011"
+    },
+    {
+      "type": "Fellowship",
+      "specialty": "Gastroenterology",
+      "institution": "NewYork-Presbyterian/Weill Cornell Medical Center",
+      "start_date": "2011",
+      "end_date": "2014"
+    },
+    {
+      "type": "Fellowship",
+      "specialty": "Advanced Endoscopy",
+      "institution": "Memorial Sloan Kettering Cancer Center",
+      "start_date": "2014",
+      "end_date": "2015"
+    }
+  ],
+  "licensure": [
+    {
+      "type": "State License",
+      "state": "Georgia",
+      "license_number": "GA042879",
+      "status": "Active",
+      "expiration_date": "12/31/2025"
+    },
+    {
+      "type": "State License",
+      "state": "New York",
+      "license_number": "NY298547",
+      "status": "Inactive",
+      "expiration_date": "2021"
+    },
+    {
+      "type": "State License",
+      "state": "Tennessee",
+      "license_number": "TN18739",
+      "status": "Expired",
+      "expiration_date": "2014"
+    },
+    {
+      "type": "DEA",
+      "state": "Georgia",
+      "license_number": "BM4783621",
+      "status": "Active",
+      "expiration_date": "08/31/2026"
+    }
+  ],
+  "board_certifications": [
+    {
+      "board": "American Board of Internal Medicine",
+      "specialty": "Internal Medicine",
+      "status": "Certified",
+      "start_date": "2011",
+      "end_date": "2031"
+    },
+    {
+      "board": "American Board of Internal Medicine",
+      "specialty": "Gastroenterology",
+      "status": "Certified",
+      "start_date": "2014",
+      "end_date": "2034"
+    }
+  ],
+  "employment_history": [
+    {
+      "position": "Senior Gastroenterologist",
+      "employer": "Atlanta Digestive Care Associates",
+      "location": "Atlanta, GA",
+      "start_date": "2020",
+      "end_date": "Present"
+    },
+    {
+      "position": "Attending Gastroenterologist",
+      "employer": "NewYork-Presbyterian Hospital",
+      "location": "New York, NY",
+      "start_date": "2015",
+      "end_date": "2020"
+    },
+    {
+      "position": "Clinical Fellow",
+      "employer": "Memorial Sloan Kettering Cancer Center",
+      "location": "New York, NY",
+      "start_date": "2014",
+      "end_date": "2015"
+    }
+  ],
+  "hospital_privileges": [
+    {
+      "hospital": "Emory University Hospital",
+      "status": "Active",
+      "start_date": "2020",
+      "end_date": null
+    },
+    {
+      "hospital": "Piedmont Atlanta Hospital",
+      "status": "Active",
+      "start_date": "2020",
+      "end_date": null
+    },
+    {
+      "hospital": "NewYork-Presbyterian Hospital",
+      "status": "Terminated",
+      "start_date": "2015",
+      "end_date": "2020"
+    }
+  ],
+  "languages_spoken": [
+    "English",
+    "Twi",
+    "French",
+    "Spanish"
+  ],
+  "clinical_interests": [
+    "Inflammatory bowel disease",
+    "Therapeutic endoscopy and ERCP",
+    "Pancreaticobiliary disorders",
+    "Colorectal cancer screening",
+    "Global health gastroenterology"
+  ],
+  "peer_review_notes": [
+    "Exceptional technical skills in advanced endoscopic procedures",
+    "Strong advocate for patient education and preventive care",
+    "Active in quality improvement initiatives",
+    "Excellent communication with diverse patient populations"
+  ],
+  "peer_references": [
+    {
+      "name": "Dr. Michael Thompson, MD",
+      "position": "Chief of Gastroenterology",
+      "institution": "Emory University Hospital",
+      "phone": "(404) 555-0156",
+      "relationship": "Department Chief"
+    },
+    {
+      "name": "Dr. Sarah Chen, MD",
+      "position": "Director of Endoscopy",
+      "institution": "NewYork-Presbyterian Hospital",
+      "phone": "(212) 555-0278",
+      "relationship": "Former Colleague"
+    }
+  ],
+  "professional_liability_insurance": {
+    "carrier": "Physicians Insurance Company",
+    "policy_number": "PIC7829634",
+    "coverage_amount": "$2M/$6M",
+    "effective_start_date": "01/01/2024",
+    "effective_end_date": "01/01/2027"
+  },
+  "professional_concerns": "Malpractice claim filed in 2018 regarding delayed diagnosis of pancreatic cancer. Case settled out of court for $185,000. No admission of fault. Incident reviewed by hospital quality committee with no adverse action taken against privileges.",
+  "malpractice_history": [
+    {
+      "incident_date": "2018",
+      "claim_filed_date": "03/15/2018",
+      "resolution_date": "11/22/2018",
+      "allegation": "Failure to diagnose pancreatic adenocarcinoma in timely manner",
+      "settlement_amount": "$185,000",
+      "status": "Settled",
+      "carrier": "Medical Protective Company"
+    }
+  ],
+  "publications": [
+    "Mensah N, et al. 'Endoscopic Management of Pancreatic Duct Strictures: A Multicenter Experience.' Gastrointestinal Endoscopy. 2019;89(4):756-763.",
+    "Thompson M, Mensah N, et al. 'Quality Metrics in Inflammatory Bowel Disease Care.' American Journal of Gastroenterology. 2021;116(8):1621-1629."
+  ],
+  "professional_memberships": [
+    "American Gastroenterological Association",
+    "American Society for Gastrointestinal Endoscopy",
+    "Crohn's & Colitis Foundation",
+    "Association of American Physicians and Surgeons"
+  ]
+}

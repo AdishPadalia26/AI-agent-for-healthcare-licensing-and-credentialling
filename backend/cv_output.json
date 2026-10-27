@@ -1,0 +1,164 @@
+{
+  "full_name": "Ananya Suresh, MD",
+  "date_of_birth": "March 12, 1985",
+  "place_of_birth": null,
+  "citizenship": "United States",
+  "gender": "Female",
+  "race": null,
+  "ethnicity": null,
+  "ssn": null,
+  "marital_status": null,
+  "npi": "1945823100",
+  "ecfmg_certification_number": null,
+  "ecfmg_issue_date": null,
+  "contact_information": {
+    "address": "527 West 32nd St, Los Angeles, CA",
+    "phone": null,
+    "email": null
+  },
+  "address_history": [
+    {
+      "address": "527 West 32nd St, Los Angeles, CA",
+      "start_date": "2019",
+      "end_date": "Present"
+    },
+    {
+      "address": "220 East 84th St, New York, NY",
+      "start_date": "2013",
+      "end_date": "2019"
+    },
+    {
+      "address": "15 MG Road, Chennai, India",
+      "start_date": "2003",
+      "end_date": "2008"
+    }
+  ],
+  "education": [
+    {
+      "degree": "MBBS",
+      "institution": "Christian Medical College",
+      "location": "Vellore, India",
+      "start_date": "07/2003",
+      "end_date": "06/2008",
+      "graduation_year": "2008"
+    },
+    {
+      "degree": "MD (Neurology)",
+      "institution": "Johns Hopkins University School of Medicine",
+      "location": null,
+      "start_date": "08/2009",
+      "end_date": "05/2013",
+      "graduation_year": "2013"
+    }
+  ],
+  "postgraduate_training": [
+    {
+      "type": "Fellowship",
+      "specialty": "Epilepsy",
+      "institution": "Mayo Clinic",
+      "start_date": "2013",
+      "end_date": "2015"
+    },
+    {
+      "type": "Residency",
+      "specialty": "Neurology",
+      "institution": "Mount Sinai Hospital",
+      "start_date": "2009",
+      "end_date": "2013"
+    }
+  ],
+  "licensure": [
+    {
+      "type": "State License",
+      "state": "California",
+      "license_number": "CA786534",
+      "status": "Active",
+      "expiration_date": "06/30/2028"
+    },
+    {
+      "type": "State License",
+      "state": "New York",
+      "license_number": "NY472010",
+      "status": "Expired",
+      "expiration_date": "2020"
+    },
+    {
+      "type": "DEA",
+      "state": null,
+      "license_number": "FM9823746",
+      "status": "Active",
+      "expiration_date": null
+    }
+  ],
+  "board_certifications": [
+    {
+      "board": "American Board of Psychiatry and Neurology",
+      "specialty": "Neurology",
+      "status": "Certified",
+      "start_date": "2015",
+      "end_date": "2028"
+    },
+    {
+      "board": null,
+      "specialty": "Epilepsy",
+      "status": "Certified",
+      "start_date": "2017",
+      "end_date": "2028"
+    }
+  ],
+  "employment_history": [
+    {
+      "position": "Senior Neurologist",
+      "employer": "Pacific NeuroHealth Center",
+      "location": "Los Angeles, CA",
+      "start_date": "2019",
+      "end_date": "Present"
+    },
+    {
+      "position": "Neurologist",
+      "employer": "Mount Sinai Medical Center",
+      "location": "New York, NY",
+      "start_date": "2013",
+      "end_date": "2019"
+    }
+  ],
+  "hospital_privileges": [
+    {
+      "hospital": "Pacific NeuroHealth Center",
+      "status": "Active",
+      "start_date": "2019",
+      "end_date": null
+    },
+    {
+      "hospital": "Mount Sinai Medical Center",
+      "status": null,
+      "start_date": "2013",
+      "end_date": "2019"
+    }
+  ],
+  "languages_spoken": [
+    "English",
+    "Tamil",
+    "Spanish"
+  ],
+  "clinical_interests": [
+    "Epilepsy and seizure disorders",
+    "Neurophysiology and EEG/EMG",
+    "Neurocritical care and tele-neurology",
+    "Women's neurological health"
+  ],
+  "peer_review_notes": [
+    "Excellent patient engagement and follow-up",
+    "Timely documentation and EMR accuracy",
+    "Leadership in epilepsy case conferences"
+  ],
+  "peer_references": null,
+  "professional_liability_insurance": {
+    "carrier": "Global Medical Insurance Co.",
+    "policy_number": "NM4458901",
+    "coverage_amount": "$1M/$3M",
+    "effective_start_date": "01/01/2023",
+    "effective_end_date": "01/01/2026"
+  },
+  "professional_concerns": "None reported."
+}

@@ -1,0 +1,77 @@
+{
+  "full_name": "Sanjay Rajiv Mehra, MD",
+  "dob": "June",
+  "place_of_birth": "Mumbai, India",
+  "citizenship": "United States",
+  "gender": "Male",
+  "race": "Asian",
+  "ethnicity": "Non-Hispanic",
+  "ssn": "321-54-9076 (",
+  "npi": "1780953210",
+  "ecfmg_number": "0-742-195-3",
+  "ecfmg_issue_date": "2003-03-12",
+  "home_address": "3821 Hightower Dr \n Dallas, TX 75228",
+  "phone": "(214) 555-2938",
+  "email": "s.mehra@lsncare.com (mock email)",
+  "licenses": [
+    {
+      "state": "Texas",
+      "license_number": "TX123456",
+      "status": "Active",
+      "issue_date": "2010-06-15",
+      "expiry_date": "2026-06-30"
+    },
+    {
+      "state": "Ohio",
+      "license_number": "O876543",
+      "status": "Expired",
+      "issue_date": "2008-07-01",
+      "expiry_date": "2013-06-30"
+    },
+    {
+      "state": "North Carolina",
+      "license_number": "2024-05412",
+      "status": "Active",
+      "issue_date": "2024-04-26",
+      "expiry_date": "2026-04-25"
+    },
+    {
+      "state": "Texas",
+      "license_number": "FM5482639",
+      "status": "Active",
+      "issue_date": "2010-06-30",
+      "expiry_date": "2012-06-29"
+    }
+  ],
+  "dea": {
+    "number": "Texas",
+    "status": "Active",
+    "issue_date": "2010-06-30",
+    "expiry_date": "2012-06-29"
+  },
+  "board_certifications": [
+    {
+      "board": "ABPN",
+      "specialty": "Neurology",
+      "certificate_number": "16489",
+      "valid_from": "2011-09-15",
+      "valid_to": "2026-03-01"
+    },
+    {
+      "board": "ABPN",
+      "specialty": "Epilepsy",
+      "certificate_number": "302",
+      "valid_from": "2012-10-20",
+      "valid_to": "2026-03-01"
+    }
+  ],
+  "medical_school": "All India Institute of Medical Sciences (AIIMS) \u2013 New Delhi, India",
+  "residency": "Neurology",
+  "fellowship": "Epilepsy",
+  "malpractice": {
+    "carrier": "8542 Corporate Avenue, Suite K-4202",
+    "policy_number": "AB4528006",
+    "effective": "2025-04-01",
+    "expiry": "2026-04-01"
+  }
+}
