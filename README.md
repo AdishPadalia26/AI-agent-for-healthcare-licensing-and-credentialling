@@ -40,26 +40,9 @@ These are the project results documented in my resumes. The local checks below v
 
 ## Software Architecture and System Design
 
-The diagram summarizes the system I built, including the retrieval and cloud deployment described in my project results.
+The architecture below summarizes the system I built, including the retrieval and cloud deployment described in my project results.
 
-```mermaid
-flowchart TD
-    A[Provider documents in Amazon S3] --> B[AWS Textract OCR]
-    B --> C[Gemini 2.5 Pro extraction]
-    C --> D[Normalized provider data]
-    E[Elasticsearch vector database] --> F[RAG context]
-    F --> G[Contextual field mapping]
-    D --> G
-    H[Target PDF] --> I[PyMuPDF field extraction]
-    I --> G
-    G --> J[Regex, RapidFuzz, and confidence gating]
-    J --> K[PyMuPDF form filling]
-    H --> K
-    K --> L[Completed credentialing PDF]
-    M[Next.js upload and preview dashboard] -. User interface .-> N[Flask backend on AWS EC2]
-    N -. Processing orchestration .-> B
-    L -. Preview and download .-> M
-```
+![System architecture showing provider extraction, retrieval context, PDF template processing, and the application layer](docs/images/system-architecture.png)
 
 ### Component responsibilities
 
