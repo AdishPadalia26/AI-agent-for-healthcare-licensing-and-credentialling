@@ -25,7 +25,14 @@ wheels/
 
 # Environment variables
 .env*
+!.env.example
 .venv
+
+# Runtime data: database, uploads, generated forms
+data/
+output.json
+mapped_fields.json
+filled_form.pdf
 
 # IDE
 .vscode/

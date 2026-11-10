@@ -4,7 +4,7 @@ import Link from "next/link";
 import { cn } from "@/lib/cn";
 
 
-import { signIn } from "next-auth/react";    // ✅ for Google sign-in
+import { getProviders, signIn } from "next-auth/react";
 import { FcGoogle } from "react-icons/fc";  // ✅ Google icon
 import React from "react";
 
@@ -88,11 +88,21 @@ export function Divider({ text = "or" }: { text?: string }) {
 }
 
 export function OAuthRow() {
+  const [enabled, setEnabled] = React.useState(false);
+
+  React.useEffect(() => {
+    getProviders()
+      .then((providers) => setEnabled(Boolean(providers?.google)))
+      .catch(() => setEnabled(false));
+  }, []);
+
+  if (!enabled) return null;
+
   return (
     <div className="grid grid-cols-1 gap-3">
       <button
         type="button"
-        onClick={() => signIn("google", { callbackUrl: "/" })}
+        onClick={() => signIn("google", { callbackUrl: "/home" })}
         className="flex items-center justify-center gap-2 w-full rounded-lg border border-gray-300 bg-white py-2 text-gray-700 hover:bg-gray-50 hover:border-gray-400 transition"
       >
         <FcGoogle className="text-xl" />

@@ -4,6 +4,7 @@ import AuthCard, { Button, Divider, Input, Label, OAuthRow } from "@/components/
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { signIn } from "next-auth/react";
 
 export default function LoginPage() {
   const router = useRouter()
@@ -16,14 +17,9 @@ export default function LoginPage() {
     setError(null);
     setLoading(true);
     try {
-      const res = await fetch("/api/auth/login", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
-      if (!res.ok) throw new Error("Invalid credentials");
-      alert(`Login success: ${form.email}`);
-      router.push('/home')
+      const result = await signIn("credentials", { ...form, redirect: false });
+      if (!result?.ok) throw new Error("Invalid email or password");
+      router.push("/home");
     } catch (err: any) {
       setError(err.message || "Login failed");
     } finally {

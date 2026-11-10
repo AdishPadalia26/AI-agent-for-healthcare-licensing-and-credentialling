@@ -4,6 +4,7 @@ import Link from "next/link";
 import AuthCard, { Button, Divider, Input, Label, OAuthRow } from "@/components/auth/AuthCard";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { signIn } from "next-auth/react";
 
 export default function SignupPage() {
   const router = useRouter()
@@ -26,10 +27,14 @@ export default function SignupPage() {
 
     setLoading(true);
     try {
-      // TODO call your API
-      // const res = await fetch("/api/auth/signup", { method: "POST", body: JSON.stringify(form) });
-      // if (!res.ok) throw new Error("Could not create account");
-      alert(`Account created for ${form.email}`);
+      const res = await fetch("/api/auth/signup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: form.name, email: form.email, password: form.password }),
+      });
+      if (!res.ok) throw new Error((await res.json()).error ?? "Could not create account");
+      const result = await signIn("credentials", { email: form.email, password: form.password, redirect: false });
+      if (!result?.ok) throw new Error("Account created, but sign in failed");
       router.push("/home");
     } catch (err: any) {
       setError(err.message || "Sign up failed");
