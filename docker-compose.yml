@@ -1,0 +1,51 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.19.5
+    environment:
+      - discovery.type=single-node
+      # Reachable only on the private compose network; no ports are published.
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+    volumes:
+      - es-data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fs http://localhost:9200/_cluster/health || exit 1"]
+      interval: 10s
+      retries: 30
+    restart: unless-stopped
+
+  api:
+    build: ./backend
+    env_file: ./backend/.env
+    environment:
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+      - FLASK_DEBUG=0
+    volumes:
+      - api-data:/data
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    restart: unless-stopped
+
+  web:
+    build: ./frontend
+    env_file: ./frontend/.env.local
+    environment:
+      - BACKEND_URL=http://api:5000
+    depends_on:
+      - api
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:1.29-alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ./deploy/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - web
+    restart: unless-stopped
+
+volumes:
+  es-data:
+  api-data:

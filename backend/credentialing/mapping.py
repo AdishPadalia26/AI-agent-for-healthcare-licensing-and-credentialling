@@ -5,7 +5,7 @@ context, then fuzzy matching. Every result records which layer decided and why.
 """
 from __future__ import annotations
 
-import logging
+import collections
 import re
 from typing import Any
 
@@ -19,7 +19,6 @@ from .retrieval import NullStore, RetrievalStore
 from .schema import mapping_candidates
 from .validators import is_email, is_npi, is_phone, is_ssn
 
-log = logging.getLogger(__name__)
 LLM_BATCH = 50
 FILLABLE = {"text", "checkbox", "radio", "combobox", "listbox"}
 CONFIRMED_MIN_SIMILARITY = 0.8
@@ -27,7 +26,7 @@ FUZZY_MIN_SCORE = 85
 _ANCHOR_REACH = 4  # Unmapped fields an anchor can span, e.g. address and phone in a block.
 
 _RULE_CONFIDENCE, _ANCHOR_CONFIDENCE, _CONFIRMED_CONFIDENCE = 0.95, 0.85, 0.9
-_LLM_CAP, _FUZZY_CAP = 0.9, 0.6
+_LLM_CAP, _FUZZY_CAP, _REPEATED_CONFIDENCE = 0.9, 0.6, 0.6
 
 
 def _license_where(candidates: dict[str, Any], needle: str, leaf: str, attr: str = "state") -> str | None:
@@ -213,6 +212,7 @@ class Mapper:
         pending: list[dict[str, Any]] = []
         previous_key: str | None = None
         previous_page, misses = None, 0
+        repeats = collections.Counter(describe(f).lower() for f in fields if describe(f))
 
         for field in fields:
             if field.get("field_type") not in FILLABLE:
@@ -224,6 +224,9 @@ class Mapper:
             descriptor = describe(field)
             key = self._rule(descriptor, candidates) if descriptor else None
             layer, confidence = "rule", _RULE_CONFIDENCE
+            if key is not None and repeats[descriptor.lower()] > 1:
+                # "Email" under an office contact is not necessarily the provider's email.
+                layer, confidence = "rule_repeated", _REPEATED_CONFIDENCE
             if key is None and descriptor:
                 key = self._anchor(descriptor, previous_key, candidates)
                 layer, confidence = "anchor", _ANCHOR_CONFIDENCE
@@ -259,6 +262,8 @@ class Mapper:
         raw = candidates.get(key) if key else None
         kind = value_kind(descriptor, key)
         confidence, reasons = score_field(layer_confidence, key, raw, kind, record) if key else (0.0, [])
+        if layer == "rule_repeated":
+            reasons = ["this label repeats in the form", *reasons]
         band = band_for(confidence, raw is not None, self._settings)
         keep = band != "blank"
         return {

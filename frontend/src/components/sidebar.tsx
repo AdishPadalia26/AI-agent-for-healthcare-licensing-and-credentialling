@@ -1,10 +1,20 @@
 "use client";
 
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { signOut } from "next-auth/react";
+import { Shield } from "lucide-react";
+import { api, type Me } from "@/lib/api";
 
 const Sidebar = () => {
   const [expand, setExpand] = useState(false);
+  const [isAdmin, setIsAdmin] = useState(false);
+
+  useEffect(() => {
+    api<Me>("me")
+      .then((me) => setIsAdmin(me.is_admin))
+      .catch(() => setIsAdmin(false));
+  }, []);
 
   return (
     <aside
@@ -139,10 +149,21 @@ const Sidebar = () => {
           </svg>
           {expand && <div>History</div>}
         </Link>
+
+        {isAdmin && (
+          <Link href="/admin" aria-label="Admin" className="cursor-pointer py-2 my-2 flex gap-2">
+            <Shield className="size-6" strokeWidth={1.5} />
+            {expand && <div>Admin</div>}
+          </Link>
+        )}
       </div>
 
       {/* Logout */}
-      <div className="cursor-pointer py-2 ml-4 flex gap-2">
+      <button
+        aria-label="Logout"
+        onClick={() => signOut({ callbackUrl: "/" })}
+        className="cursor-pointer py-2 ml-4 flex gap-2"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -158,7 +179,7 @@ const Sidebar = () => {
           />
         </svg>
         {expand && <div className="text-red-600">Logout</div>}
-      </div>
+      </button>
     </aside>
   );
 };

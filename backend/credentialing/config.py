@@ -10,6 +10,8 @@ from dotenv import load_dotenv
 BACKEND_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BACKEND_DIR / "config" / ".env")
 load_dotenv(BACKEND_DIR / ".env")
+# In a source checkout, the frontend's env file supplies the shared auth secret and bucket.
+load_dotenv(BACKEND_DIR.parent / "frontend" / ".env.local")
 
 
 def _bool(name: str, default: bool = False) -> bool:
@@ -58,13 +60,13 @@ def get_settings() -> Settings:
         aws_region=os.getenv("AWS_REGION") or os.getenv("AWS_DEFAULT_REGION"),
         aws_profile=os.getenv("AWS_PROFILE"),
         s3_bucket=os.getenv("AWS_S3_BUCKET_NAME"),
-        storage_backend=os.getenv("STORAGE_BACKEND", "local").lower(),
+        storage_backend=os.getenv("STORAGE_BACKEND", "s3" if os.getenv("AWS_S3_BUCKET_NAME") else "local").lower(),
         data_dir=data_dir,
         database_url=os.getenv("DATABASE_URL", f"sqlite:///{(data_dir / 'app.db').as_posix()}"),
         data_encryption_key=os.getenv("DATA_ENCRYPTION_KEY"),
         elasticsearch_url=os.getenv("ELASTICSEARCH_URL") or None,
         elasticsearch_api_key=os.getenv("ELASTICSEARCH_API_KEY") or None,
-        jwt_secret=os.getenv("BACKEND_JWT_SECRET"),
+        jwt_secret=os.getenv("BACKEND_JWT_SECRET") or os.getenv("NEXTAUTH_SECRET"),
         cors_origins=_list("CORS_ORIGINS", "http://localhost:3000"),
         admin_emails=tuple(e.lower() for e in _list("ADMIN_EMAILS")),
         flask_debug=_bool("FLASK_DEBUG", True),

@@ -1,0 +1,108 @@
+{
+  "mode": "offline (no OCR, no LLM)",
+  "caveats": [
+    "Records are synthetic and the gold labels were written by the author of the mapping rules, so offline results describe this form and are not an independent accuracy estimate.",
+    "Offline mode makes no OCR or Gemini calls. Run with --live and --cv to measure those stages.",
+    "This is not a measurement of the speed, review-effort, or error-rate claims in the README, which need a baseline that is not in this repository."
+  ],
+  "form_fields": 418,
+  "gold_fields": 36,
+  "records": 5,
+  "auto_fill_precision": 1.0,
+  "answerable_auto_fill_coverage": 0.9873,
+  "deferred_to_review": 1,
+  "mean_seconds_map_and_fill": 0.241,
+  "mean_share_of_form_needing_review": 0.0258,
+  "runs": [
+    {
+      "record": "resume.json",
+      "correct": 11,
+      "wrong": 0,
+      "missed": 0,
+      "deferred": 0,
+      "correct_blank": 25,
+      "wrong_fill": 0,
+      "errors": [],
+      "written": 15,
+      "fill_errors": [],
+      "readback_mismatches": 0,
+      "bands": {
+        "auto_fill": 15,
+        "needs_review": 0,
+        "blank": 403
+      }
+    },
+    {
+      "record": "synthetic_cv_1.json",
+      "correct": 16,
+      "wrong": 0,
+      "missed": 0,
+      "deferred": 1,
+      "correct_blank": 19,
+      "wrong_fill": 0,
+      "errors": [],
+      "written": 21,
+      "fill_errors": [],
+      "readback_mismatches": 0,
+      "bands": {
+        "auto_fill": 21,
+        "needs_review": 14,
+        "blank": 383
+      }
+    },
+    {
+      "record": "synthetic_cv_2.json",
+      "correct": 17,
+      "wrong": 0,
+      "missed": 0,
+      "deferred": 0,
+      "correct_blank": 19,
+      "wrong_fill": 0,
+      "errors": [],
+      "written": 22,
+      "fill_errors": [],
+      "readback_mismatches": 0,
+      "bands": {
+        "auto_fill": 22,
+        "needs_review": 14,
+        "blank": 382
+      }
+    },
+    {
+      "record": "synthetic_cv_3.json",
+      "correct": 16,
+      "wrong": 0,
+      "missed": 0,
+      "deferred": 0,
+      "correct_blank": 20,
+      "wrong_fill": 0,
+      "errors": [],
+      "written": 21,
+      "fill_errors": [],
+      "readback_mismatches": 0,
+      "bands": {
+        "auto_fill": 21,
+        "needs_review": 13,
+        "blank": 384
+      }
+    },
+    {
+      "record": "synthetic_cv_4.json",
+      "correct": 18,
+      "wrong": 0,
+      "missed": 0,
+      "deferred": 0,
+      "correct_blank": 18,
+      "wrong_fill": 0,
+      "errors": [],
+      "written": 23,
+      "fill_errors": [],
+      "readback_mismatches": 0,
+      "bands": {
+        "auto_fill": 23,
+        "needs_review": 13,
+        "blank": 382
+      }
+    }
+  ]
+}
